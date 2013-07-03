@@ -1,0 +1,23 @@
+-> verificar se o utilizador  tem o gps ligado
+
+final LocationManager manager = (LocationManager)context.getSystemService(Context.LOCATION_SERVICE );
+
+if ( !manager.isProviderEnabled( LocationManager.GPS_PROVIDER ) )
+  Toast.makeText(context, "GPS is disable!", Toast.LENGTH_LONG).show(); 
+else
+ Toast.makeText(context, "GPS is Enable!", Toast.LENGTH_LONG).show();
+
+
+	-> se não tiver redireciona-o o utilizador para as "definições" onde pode ligar o GPS
+
+
+-> conforme a aplicaçao vai correndo tem de haver uma variável que verifique o estado do GPS
+
+
+
+PACKAGES:
+
+api- conjunto de funções de maneira a aceder à informação alojada no servidor
+api.responses - trata de forma automática o que é recebido do servidor
+database - classes que tem a ver com a base de dados
+

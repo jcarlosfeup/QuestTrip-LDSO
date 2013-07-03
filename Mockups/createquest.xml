@@ -1,0 +1,219 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1811" measuredH="1001" mockupW="1280" mockupH="1001">
+  <controls>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::MultilineButton" x="636" y="619" w="256" h="35" measuredW="211" measuredH="66" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Download%20ANDROID%20APP</text>
+      </controlProperties>
+    </control>
+    <control controlID="100" controlTypeID="com.balsamiq.mockups::LinkBar" x="1071" y="108" w="-1" h="-1" measuredW="217" measuredH="19" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Home%2C%20Quests%2C%20Wishlists%2C%20Stats</text>
+      </controlProperties>
+    </control>
+    <control controlID="101" controlTypeID="__group__" x="531" y="0" w="1280" h="1001" measuredW="1280" measuredH="1001" zOrder="2" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1280" h="1001" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>QuestTrip%20-%20Create%20Quest</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="8" y="109" w="1264" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="101"/>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="10" y="73" w="150" h="42" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="101">
+          <controlProperties>
+            <filter>true</filter>
+            <text>Logo</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="1185" y="85" w="-1" h="-1" measuredW="70" measuredH="19" zOrder="3" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>My%20Account</text>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="1146" y="81" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="4" locked="false" isInGroup="101">
+          <controlProperties>
+            <borderStyle>none</borderStyle>
+            <icon>FacebookIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Icon" x="1107" y="81" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="5" locked="false" isInGroup="101">
+          <controlProperties>
+            <icon>TwitterIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="167" y="31" w="-1" h="-1" measuredW="242" measuredH="21" zOrder="6" locked="false" isInGroup="101">
+          <controlProperties>
+            <text>http%3A//www.questttrip.com/newquest.html</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="103" controlTypeID="com.balsamiq.mockups::LinkBar" x="1034" y="82" w="-1" h="-1" measuredW="287" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <size>18</size>
+        <text>My%20Quests%2C%20My%20Albums%2C%20*%26Upgrade%26*</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::IconLabel" x="739" y="84" w="-1" h="-1" measuredW="104" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <borderStyle>square</borderStyle>
+        <color>0</color>
+        <icon>PlusIcon%7Cxsmall</icon>
+        <labelPosition>right</labelPosition>
+        <rotation>270</rotation>
+        <text>Create%20Quest</text>
+      </controlProperties>
+    </control>
+    <control controlID="132" controlTypeID="com.balsamiq.mockups::RoundButton" x="878" y="212" w="32" h="32" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16750848</color>
+        <text>1</text>
+      </controlProperties>
+    </control>
+    <control controlID="133" controlTypeID="com.balsamiq.mockups::HRule" x="907" y="223" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="134" controlTypeID="com.balsamiq.mockups::RoundButton" x="1007" y="212" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>2</text>
+      </controlProperties>
+    </control>
+    <control controlID="135" controlTypeID="com.balsamiq.mockups::RoundButton" x="1139" y="212" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>3</text>
+      </controlProperties>
+    </control>
+    <control controlID="136" controlTypeID="com.balsamiq.mockups::RoundButton" x="1403" y="212" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>5</text>
+      </controlProperties>
+    </control>
+    <control controlID="137" controlTypeID="com.balsamiq.mockups::RoundButton" x="1535" y="212" w="32" h="32" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>6</text>
+      </controlProperties>
+    </control>
+    <control controlID="138" controlTypeID="com.balsamiq.mockups::RoundButton" x="1271" y="212" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>4</text>
+      </controlProperties>
+    </control>
+    <control controlID="139" controlTypeID="com.balsamiq.mockups::HRule" x="1039" y="223" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="140" controlTypeID="com.balsamiq.mockups::HRule" x="1171" y="223" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="141" controlTypeID="com.balsamiq.mockups::HRule" x="1303" y="223" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="14" locked="false" isInGroup="-1"/>
+    <control controlID="142" controlTypeID="com.balsamiq.mockups::HRule" x="1435" y="223" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="15" locked="false" isInGroup="-1"/>
+    <control controlID="143" controlTypeID="com.balsamiq.mockups::MultilineButton" x="1105" y="746" w="148" h="54" measuredW="139" measuredH="72" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>2848996</color>
+        <size>20</size>
+        <text>NEXT</text>
+      </controlProperties>
+    </control>
+    <control controlID="144" controlTypeID="com.balsamiq.mockups::Canvas" x="835" y="342" w="689" h="339" measuredW="100" measuredH="70" zOrder="17" locked="false" isInGroup="-1"/>
+    <control controlID="145" controlTypeID="com.balsamiq.mockups::Title" x="835" y="299" w="-1" h="-1" measuredW="218" measuredH="43" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <text>Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="146" controlTypeID="com.balsamiq.mockups::TextInput" x="1025" y="372" w="435" h="-1" measuredW="79" measuredH="26" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::SubTitle" x="858" y="372" w="-1" h="-1" measuredW="139" measuredH="27" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quest%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="com.balsamiq.mockups::SubTitle" x="858" y="429" w="-1" h="-1" measuredW="124" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Description</text>
+      </controlProperties>
+    </control>
+    <control controlID="150" controlTypeID="com.balsamiq.mockups::TextArea" x="1025" y="429" w="432" h="88" measuredW="200" measuredH="140" zOrder="22" locked="false" isInGroup="-1"/>
+    <control controlID="151" controlTypeID="com.balsamiq.mockups::HelpButton" x="928" y="553" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="23" locked="false" isInGroup="-1"/>
+    <control controlID="152" controlTypeID="com.balsamiq.mockups::SubTitle" x="858" y="549" w="-1" h="-1" measuredW="70" measuredH="27" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Linear</text>
+      </controlProperties>
+    </control>
+    <control controlID="153" controlTypeID="com.balsamiq.mockups::CheckBox" x="1025" y="545" w="46" h="35" measuredW="20" measuredH="21" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="154" controlTypeID="com.balsamiq.mockups::SubTitle" x="858" y="627" w="-1" h="-1" measuredW="144" measuredH="27" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Quest%20Image</text>
+      </controlProperties>
+    </control>
+    <control controlID="155" controlTypeID="com.balsamiq.mockups::SubTitle" x="843" y="372" w="-1" h="-1" measuredW="12" measuredH="27" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <text>*</text>
+      </controlProperties>
+    </control>
+    <control controlID="156" controlTypeID="com.balsamiq.mockups::SubTitle" x="843" y="549" w="-1" h="-1" measuredW="12" measuredH="27" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <text>*</text>
+      </controlProperties>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::DateChooser" x="1025" y="587" w="126" h="-1" measuredW="90" measuredH="25" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::SubTitle" x="858" y="586" w="-1" h="-1" measuredW="52" measuredH="27" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Date</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::StickyNote" x="580" y="504" w="190" h="212" measuredW="109" measuredH="123" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Acham%20que%20se%20deve%20colocar%20a%20Data%3F%0A%C9%20que%20podemos%20ver%20isto%20como%20eventos%20pontuais%20ou%20como%20quests%20que%20ficam%20alojadas%20na%20app</text>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::HRule" x="735" y="605" w="-1" h="-1" measuredW="100" measuredH="10" zOrder="32" locked="false" isInGroup="-1"/>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Button" x="1129" y="627" w="-1" h="-1" measuredW="68" measuredH="27" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+        <text>Upload%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::Label" x="1025" y="630" w="-1" h="-1" measuredW="89" measuredH="21" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>portobaixa.png</text>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::StickyNote" x="845" y="127" w="98" h="72" measuredW="109" measuredH="123" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Basic%20Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="164" controlTypeID="com.balsamiq.mockups::StickyNote" x="973" y="127" w="98" h="72" measuredW="109" measuredH="123" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Invite%20your%20friends</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::StickyNote" x="1509" y="121" w="98" h="85" measuredW="109" measuredH="123" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Share%20on%20facebook%20%28optional%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::StickyNote" x="1377" y="142" w="98" h="64" measuredW="109" measuredH="123" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Summary</text>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::StickyNote" x="1105" y="127" w="98" h="72" measuredW="109" measuredH="123" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20spots</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::StickyNote" x="1238" y="127" w="98" h="72" measuredW="109" measuredH="123" zOrder="40" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Add%20challenges</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

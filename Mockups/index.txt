@@ -1,0 +1,140 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1459" measuredH="692" mockupW="1338" mockupH="657">
+  <controls>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="121" y="35" w="1338" h="657" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+        <text>Firefox%0Ahttp%3A//www.questtrip.com/index.html</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="121" y="97" w="170" h="41" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo%20Questtrip</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Canvas" x="291" y="97" w="1168" h="41" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Button" x="1359" y="104" w="-1" h="-1" measuredW="67" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16750848</color>
+        <text>LOG%20IN</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Title" x="456" y="177" w="646" h="-1" measuredW="1090" measuredH="43" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>0</color>
+        <text>Now%20it%27s%20easy%20to%20do%20Peddy%20Papers%20%28frase%20alusiva%20qualquer%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::MultilineButton" x="657" y="357" w="243" h="45" measuredW="139" measuredH="66" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>CREATE%20FREE%20ACCOUNT</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Label" x="1212" y="107" w="-1" h="-1" measuredW="83" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CONTACT%20US</text>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::VRule" x="1181" y="102" w="-1" h="31" measuredW="10" measuredH="100" zOrder="6" locked="false" isInGroup="-1"/>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::Label" x="1095" y="107" w="-1" h="-1" measuredW="61" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>SUPPORT</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Label" x="962" y="107" w="-1" h="-1" measuredW="81" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>CUSTOMERS</text>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::VRule" x="1070" y="102" w="-1" h="31" measuredW="10" measuredH="100" zOrder="9" locked="false" isInGroup="-1"/>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="855" y="107" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>PRICING</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::VRule" x="937" y="102" w="-1" h="31" measuredW="10" measuredH="100" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Label" x="746" y="107" w="-1" h="-1" measuredW="66" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>FEATURES</text>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::VRule" x="827" y="102" w="-1" h="31" measuredW="10" measuredH="100" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Canvas" x="121" y="595" w="1338" h="67" measuredW="100" measuredH="70" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10066329</color>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Image" x="121" y="138" w="1338" h="204" measuredW="77" measuredH="79" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Imagem%20XPTO</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Image" x="268" y="611" w="124" h="34" measuredW="77" measuredH="79" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::MultilineButton" x="636" y="603" w="256" h="51" measuredW="139" measuredH="66" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Download%20ANDROID%20APP</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Label" x="657" y="107" w="45" h="-1" measuredW="38" measuredH="21" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>HOME</text>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::VRule" x="717" y="102" w="-1" h="31" measuredW="10" measuredH="100" zOrder="19" locked="false" isInGroup="-1"/>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="606" y="271" w="-1" h="-1" measuredW="317" measuredH="24" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>With%20QuestTrip%20you%20can%20bla%20blbalabalbalabal</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Button" x="351" y="104" w="98" h="27" measuredW="98" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>View%20Quests</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::IconLabel" x="336" y="427" w="175" h="-1" measuredW="115" measuredH="63" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suggested%20Quest%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::IconLabel" x="336" y="517" w="175" h="-1" measuredW="115" measuredH="63" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suggested%20Quest%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::IconLabel" x="692" y="427" w="175" h="-1" measuredW="115" measuredH="63" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suggested%20Quest%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::IconLabel" x="692" y="517" w="175" h="-1" measuredW="115" measuredH="63" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suggested%20Quest%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::IconLabel" x="1016" y="427" w="175" h="-1" measuredW="115" measuredH="63" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suggested%20Quest%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::IconLabel" x="1016" y="525" w="175" h="-1" measuredW="115" measuredH="63" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Suggested%20Quest%201</text>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::StickyNote" x="188" y="363" w="139" h="182" measuredW="109" measuredH="123" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Esta%20parte%20%E9%20para%20ser%20em%20forma%20de%20grelha%20e%20apenas%20tem%20uma%20imagem%20com%20o%20nome%20da%20quest</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

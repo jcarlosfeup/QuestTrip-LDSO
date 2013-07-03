@@ -1,0 +1,157 @@
+package com.questtrip.view;
+
+import com.questtrip.api.ApiQuestTrip;
+import com.questtrip.api.responses.QuestSimpleInfoResponse;
+import com.questtrip.api.responses.QuestSimpleInfoResponse.SimpleInfo;
+import com.questtrip.view.Launch_Quest.DownloadQuestImage;
+import com.questtrip.view.Launch_Quest.launchQuestTask;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class AboutQuestActivity extends Activity{
+
+	private Button back = null;
+	private ImageView quest_image = null;
+	private TextView questName = null;
+	private TextView questDescription = null;
+	private SimpleInfo SI_object = null;
+	private String name;
+	private String description;
+	private String quest_id;
+	private Bundle info;
+	private ProgressDialog progressDialog = null;
+
+	private Context context = this;
+
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.about_quest);
+
+		info = getIntent().getExtras();
+
+		this.quest_id = info.getString("quest_id");
+		this.name = info.getString("name");
+		//this.description = info.getString("description");
+
+		// Progress Dialog with cancel button
+		progressDialog  = new ProgressDialog(this);
+		progressDialog.setMessage("Loading Quest");
+		progressDialog.setCancelable(false);
+		progressDialog.setButton(DialogInterface.BUTTON_NEGATIVE, "Cancel", new DialogInterface.OnClickListener() {
+			@Override
+			public void onClick(DialogInterface dialog, int which) {
+				finish();
+			}
+		});
+		progressDialog.show();
+
+		if (quest_id.length() > 0 ){
+
+			new aboutQuestTask().execute(quest_id);
+			//questName = (TextView) findViewById(R.id.questName);
+			//questDescription = (TextView) findViewById(R.id.questDescriptionText);
+		}
+	}
+
+	class aboutQuestTask extends AsyncTask<String, Void, QuestSimpleInfoResponse> {
+
+		@Override
+		protected QuestSimpleInfoResponse doInBackground(String... params) {
+			return ApiQuestTrip.simpleInfo(params[0]);
+		}
+
+		protected void onPostExecute(QuestSimpleInfoResponse result) {
+
+			super.onPostExecute(result);
+			if(result == null)
+				Toast.makeText(context,"MALOOO",Toast.LENGTH_SHORT).show();
+
+			SI_object = result.getSimpleInfo();
+
+			/*if(SI_object == null)
+				Toast.makeText(context,"NULOOO",Toast.LENGTH_SHORT).show();*/
+
+			if (progressDialog != null) {
+				progressDialog.dismiss();
+			}
+
+			displayLaunch();
+		}
+	}
+
+	private void displayLaunch() {
+
+		questName.setText(name);
+
+		if (SI_object != null)
+		{
+			//questDescription.setText("Teste 1 dois 3");
+			questDescription.setText(SI_object.getDescription().toString());
+
+			/*if(this.SI_object.getImage() != null)
+			{
+				new DownloadQuestImage().execute(this.SI_object.getImage());
+				Log.d("IMAGE", this.SI_object.getImage());
+			}*/
+		}
+
+	}
+}
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/questtripback"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/challenge_img_size"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/questImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/default_img"
+            android:scaleType="fitStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/description_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>
